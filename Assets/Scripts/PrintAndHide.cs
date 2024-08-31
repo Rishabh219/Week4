@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class PrintAndHide : MonoBehaviour
 {
-    public Renderer rend;  
+    public Renderer rend;  // Renderer reference
 
-    private int i = 3;
+    private int i = 4;
 
     void Start()
     {
-       
-        i++;
+        
     }
 
     void Update()
     {
-       
-        i++;
-      
+        
         Debug.Log(gameObject.name + ":" + i);
+        
+        i++;
     }
 }
+
 
 
